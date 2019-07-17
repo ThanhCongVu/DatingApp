@@ -13,5 +13,7 @@ namespace DatingApp.API.Data
         }
         public DbSet<Value> Values { get; set; }
         // it is conventional to pluralise the entity or our model ( in this case Value)
+
+        public DbSet<User> Users { get; set; }
     }
 }
